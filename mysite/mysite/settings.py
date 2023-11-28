@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
+    
     'django.contrib.admin', # The admin site
     'django.contrib.auth', # An authentication system.
     'django.contrib.contenttypes', # A framework for content types.
